@@ -10,7 +10,7 @@ var builder = WebApplication.CreateBuilder(args);
 // Add services to the container.
 
 builder.Services.AddDbContext<SolanumContext>(options =>
-    options.UseMySql(builder.Configuration.GetConnectionString("database") ?? throw new InvalidOperationException("Connection string 'IDMContext' not found."),
+    options.UseMySql(Environment.GetEnvironmentVariable("DATABASE_URL") ?? throw new InvalidOperationException("Connection string 'IDMContext' not found."),
                     Microsoft.EntityFrameworkCore.ServerVersion.Parse("8.0.29-mysql")));
 
 builder.Services.AddControllers().AddJsonOptions( options => {
