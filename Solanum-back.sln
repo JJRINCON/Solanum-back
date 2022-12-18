@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32616.157
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Solanum-back", "Solanum-back\Solanum-back.csproj", "{B13BDD16-B30F-4936-985E-46B5DD2DC45C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B13BDD16-B30F-4936-985E-46B5DD2DC45C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B13BDD16-B30F-4936-985E-46B5DD2DC45C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B13BDD16-B30F-4936-985E-46B5DD2DC45C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B13BDD16-B30F-4936-985E-46B5DD2DC45C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A7FFE23C-4DEA-4AC3-8A78-918E6855A7B9}
+	EndGlobalSection
+EndGlobal
