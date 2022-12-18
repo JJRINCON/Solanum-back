@@ -12,8 +12,7 @@ RUN dotnet publish -c Release -o out
 
 # Generate runtime image
 FROM mcr.microsoft.com/dotnet/sdk:6.0
-WORKDIR
-/app
+WORKDIR /app
 EXPOSE 80
 COPY --from=build /app/out .
 ENTRYPOINT ["dotnet", "Solanum-back.dll"]
